@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:Act9/front.dart';
+import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Material App',
-      theme: ThemeData(primaryColor: Colors.indigo),
+      theme: ThemeData(primaryColor: Colors.green),
       home: Front(),
     );
   }
